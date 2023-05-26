@@ -12,4 +12,6 @@ simulate_feat_corr_dp_dsft.py: code to reproduce to correlation experiments
 
 simulate_mu_effect.py: code to reproduce the simulations with real x estimated means and alphas
 
+simulate_non_iid.py: reproduce figure 7 of the supplementary material
+
 Requires the uci_datasets package: https://github.com/treforevans/uci_datasets. 
