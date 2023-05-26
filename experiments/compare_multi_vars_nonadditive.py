@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error
 from tqdm import tqdm
 from uci_datasets import Dataset
 
-from simulations.compare_multi_vars import drop_constant_cols
+from experiments.compare_multi_vars import drop_constant_cols
 import algorithms as alg
 
 

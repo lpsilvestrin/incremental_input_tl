@@ -8,7 +8,7 @@ from sklearn.model_selection import ShuffleSplit, train_test_split
 from tqdm import tqdm
 from uci_datasets import Dataset
 
-from simulations.compare_multi_vars import drop_constant_cols, mse, compute_ols, compute_dsft_nl, compute_dsft, \
+from experiments.compare_multi_vars import drop_constant_cols, mse, compute_ols, compute_dsft_nl, compute_dsft, \
     compute_dp, mse2
 
 
