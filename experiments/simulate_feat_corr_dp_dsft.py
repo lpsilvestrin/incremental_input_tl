@@ -3,11 +3,9 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 
-from scipy.linalg import lstsq
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.metrics import mean_squared_error
 
-from simulations.linear_simulation import SolveRidgeRegression, solve_wls
-from algorithms import dsft, dsft_rbf
+from algorithms import dsft, dsft_rbf, SolveRidgeRegression, solve_wls
 
 _SEED = 10
 # np.random.seed(_SEED)
